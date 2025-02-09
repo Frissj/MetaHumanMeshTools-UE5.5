@@ -6,18 +6,15 @@
 	"Description": "Tools for exporting and importing MetaHuman face meshes",
 	"Category": "MetaHuman",
 	"CreatedBy": "Simon Zaaijer",
-	"CreatedByURL": "",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
-	"CanContainContent": true,
-	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
-	"Installed": false,
 	"Modules": [
 		{
 			"Name": "MetaHumanMeshTools",
 			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MetaHumanMeshToolsEditor",
+			"Type": "Editor",
 			"LoadingPhase": "Default"
 		}
 	]
